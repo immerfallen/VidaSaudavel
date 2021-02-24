@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     
-    <title>@ViewData["Title"] - Hotsite</title>
 </head>
 <body>
     <header>
@@ -12,7 +12,7 @@
            <h1>Hotsite</h1>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -26,4 +26,6 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </html>
