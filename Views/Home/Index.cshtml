@@ -1,7 +1,7 @@
 ﻿@model Interesse
 
-<div class="d-flex">
-<div class="col-md-5 ">
+<div class="d-flex mt-5">
+<div class="col-md-5 col-sm-12">
     <h1 class="text-center">Iniciativa Saúde da Cidade</h1>
     <p>
         Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
@@ -10,48 +10,68 @@
         Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
     </p>
 </div>
-<div class="col-md-7">
-    <div >
-    <img src="~/img/vidaSaudavel.jpg" alt="vida saudavel" height="462" width="800">
+<div class="col-md-7 mx-auto my-auto">
+    <div class="col-sm-12">
+    <img src="~/img/vidaSaudavel.jpg" alt="vida saudavel" height="462" width="800" class="img-fluid">
     </div>
 </div>
 </div>
 
-<div class="col-md-5 border">
-    <h2>Entre em contato!:</h2>
-    <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+<div class="d-flex mt-3"> 
+    <div class="col-md-5 border">
+        <h2>Entre em contato!</h2>
+        <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
 
-    <form action="/Home/Cadastrar" method="POST">    
-        <div class="form-group row">
-          <label asp-for="Nome" class="col-sm-2 col-form-label">Nome</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" asp-for="Nome">
-          </div>
-        </div>
-        <div class="form-group row">
-          <label asp-for="Email" class="col-sm-2 col-form-label">E-mail</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" asp-for="Email">
-          </div>
-        </div>                         
-        <div class="form-group row">
-          <label asp-for="Mensagem" class="col-sm-2 col-form-label">Mensagem (opcional):</label>
+        <form action="/Home/Cadastrar" method="POST">    
+            <div class="form-group row">
+              <label asp-for="Nome" class="col-sm-2 col-form-label">Nome</label>
               <div class="col-sm-10">
-                <textarea asp-for="Mensagem" class="form-control" rows="10"></textarea>
+                <input type="text" class="form-control" asp-for="Nome">
               </div>
-        </div>
-        <div class="mb- form-group row">
-          <div class="col-10"> </div> 
-          <div class="col-2"> 
-            <input type="submit" value="Enviar" class="btn btn-outline-dark "/>
+            </div>
+            <div class="form-group row">
+              <label asp-for="Email" class="col-sm-2 col-form-label">E-mail</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" asp-for="Email">
+              </div>
+            </div>                         
+            <div class="form-group row">
+              <label asp-for="Mensagem" class="col-sm-2 col-form-label">Mensagem (opcional):</label>
+                  <div class="col-sm-10">
+                    <textarea asp-for="Mensagem" class="form-control" rows="10"></textarea>
+                  </div>
+            </div>
+            <div class="mb- form-group row">
+              <div class="col-10"> </div> 
+              <div class="col-2"> 
+                <input type="submit" value="Enviar" class="btn btn-outline-dark "/>
+              </div>
+            </div>        
+            
+        </form>
+    </div>
+    <div class="col-md-7 my-auto">
+      <div class="d-flex justify-content-around">
+          <div class="card" style="width: 10rem;  border:none">
+            <img class="card-img-top" src="~/img/eventos.jpeg" alt="Card image cap" style="height:200px; width:150px">
+            <div class="card-body text-center">                               
+              <a href="#" class="card-link ">Agenda de eventos</a>              
+            </div>
           </div>
-        </div>        
-        
-    </form>
-</div>
+          <div class="card" style="width: 10rem; border:none">
+            <img class="card-img-top" src="~/img/dicas.jpg" alt="Card image cap" style="height:200px; width:150px">
+            <div class="card-body text-center">                               
+              <a href="#" class="card-link ">Dicas de vida saudável</a>              
+            </div>
+          </div>
+          <div class="card" style="width: 10rem;  border:none">
+            <img class="card-img-top" src="~/img/apoiadores.png" alt="Card image cap" style="height:200px; width:150px">
+            <div class="card-body text-center">                               
+              <a href="#" class="card-link">Apoiadores</a>              
+            </div>
+          </div>            
+      </div>
+    </div>
 
-<div>
-    <a href="#">Agenda de eventos</a>
-    <a href="#">Dicas de vida saudável</a>
-    <a href="#">Apoiadores</a>
-</div>
+</div>    
+
