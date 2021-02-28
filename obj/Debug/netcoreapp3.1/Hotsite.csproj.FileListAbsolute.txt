@@ -160,3 +160,10 @@ D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vid
 D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\obj\Debug\netcoreapp3.1\Hotsite.dll
 D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\obj\Debug\netcoreapp3.1\Hotsite.pdb
 D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\obj\Debug\netcoreapp3.1\Hotsite.genruntimeconfig.cache
+D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\bin\Debug\netcoreapp3.1\Serilog.dll
+D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.File.dll
+D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
+D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+D:\SENAC-CursoTecnico\Módulo 2\03 - Testar e publicar aplicações\trabalho\vidaSaudavel\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll

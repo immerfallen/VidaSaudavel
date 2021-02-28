@@ -6,19 +6,23 @@ function Cadastrar() {
         Mensagem: $("#mensagem").val()
     }
     $.post("/Home/Cadastrar", parametros)
-        .done(function () {
-            $("#frmCadastro").after("<h2>Cadastrado com sucesso! </h2>");
-            $("#frmCadastro").hide();
-            $("#CabecalhoForm").hide();
-            $("#TextoForm").hide();
+        .done(function (data) {
+            if (data.status == "OK") {
+                $("#frmCadastro").after("<h2>Cadastrado com sucesso! </h2>");
+                $("#frmCadastro").hide();
+                $("#CabecalhoForm").hide();
+                $("#TextoForm").hide();
+            }
+            if (data.status == "ERR") {
+                $("#frmCadastro").after("<h2>"+ data.mensagem + "</h2>");
+                $("#frmCadastro").hide();
+                $("#CabecalhoForm").hide();
+                $("#TextoForm").hide();
+            }          
+            
 
         })
-        .fail(function () {
-            $("#frmCadastro").after("<h2>Cadastrado não realizado! </h2>");
-            $("#frmCadastro").hide();
-            $("#CabecalhoForm").hide();
-            $("#TextoForm").hide();
-        })
+        
 }
 
 $(document).ready(function () {

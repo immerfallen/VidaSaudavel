@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U5snYrWEF9NJnHvYCdm7wN7SDNg5r7J2nAfDq2Vpqz0LPKinDpaQ/NMQPDa9HDkZre2WqChsmqkRGAfX/A4gCw==",
+  "dgSpecHash": "GsQ2r4rmzk7cYyqkaDZlALafCFr8Imlj7jooiV1xC3mdZ5ZEl4+GyPxPUKKBzK8UiPslXaKO0JDzrGgXpgoaig==",
   "success": true,
   "projectFilePath": "D:\\SENAC-CursoTecnico\\Módulo 2\\03 - Testar e publicar aplicações\\trabalho\\vidaSaudavel\\Hotsite.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,13 @@
     "C:\\Users\\maro_\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\maro_\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\maro_\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\maro_\\.nuget\\packages\\serilog\\2.5.0\\serilog.2.5.0.nupkg.sha512",
+    "C:\\Users\\maro_\\.nuget\\packages\\serilog.extensions.logging\\2.0.2\\serilog.extensions.logging.2.0.2.nupkg.sha512",
+    "C:\\Users\\maro_\\.nuget\\packages\\serilog.extensions.logging.file\\2.0.0\\serilog.extensions.logging.file.2.0.0.nupkg.sha512",
+    "C:\\Users\\maro_\\.nuget\\packages\\serilog.formatting.compact\\1.0.0\\serilog.formatting.compact.1.0.0.nupkg.sha512",
+    "C:\\Users\\maro_\\.nuget\\packages\\serilog.sinks.async\\1.1.0\\serilog.sinks.async.1.1.0.nupkg.sha512",
+    "C:\\Users\\maro_\\.nuget\\packages\\serilog.sinks.file\\3.2.0\\serilog.sinks.file.3.2.0.nupkg.sha512",
+    "C:\\Users\\maro_\\.nuget\\packages\\serilog.sinks.rollingfile\\3.3.0\\serilog.sinks.rollingfile.3.3.0.nupkg.sha512",
     "C:\\Users\\maro_\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\maro_\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\maro_\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
