@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Engenharia\\Desktop\\hotiSiteVidaSaudavel\\Hotsite.csproj",
+  "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\03 - Testar e publicar aplicações\\trabalho\\vidaSaudavel\\Hotsite.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,33 +14392,33 @@
   "RootNamespace": "Hotsite",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Engenharia\\Desktop\\hotiSiteVidaSaudavel\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\03 - Testar e publicar aplicações\\trabalho\\vidaSaudavel\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Engenharia\\Desktop\\hotiSiteVidaSaudavel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Engenharia\\Desktop\\hotiSiteVidaSaudavel\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\03 - Testar e publicar aplicações\\trabalho\\vidaSaudavel\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Engenharia\\Desktop\\hotiSiteVidaSaudavel\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Engenharia\\Desktop\\hotiSiteVidaSaudavel\\Views\\_ViewStart.cshtml",
+      "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\03 - Testar e publicar aplicações\\trabalho\\vidaSaudavel\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Engenharia\\Desktop\\hotiSiteVidaSaudavel\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\03 - Testar e publicar aplicações\\trabalho\\vidaSaudavel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\03 - Testar e publicar aplicações\\trabalho\\vidaSaudavel\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\03 - Testar e publicar aplicações\\trabalho\\vidaSaudavel\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

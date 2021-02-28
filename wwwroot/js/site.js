@@ -1,4 +1,30 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿
+function Cadastrar() {
+    let parametros = {
+        Nome: $("#nome").val(),
+        Email: $("#email").val(),
+        Mensagem: $("#mensagem").val()
+    }
+    $.post("/Home/Cadastrar", parametros)
+        .done(function () {
+            $("#frmCadastro").after("<h2>Cadastrado com sucesso! </h2>");
+            $("#frmCadastro").hide();
+            $("#CabecalhoForm").hide();
+            $("#TextoForm").hide();
 
-// Write your JavaScript code.
+        })
+        .fail(function () {
+            $("#frmCadastro").after("<h2>Cadastrado não realizado! </h2>");
+            $("#frmCadastro").hide();
+            $("#CabecalhoForm").hide();
+            $("#TextoForm").hide();
+        })
+}
+
+$(document).ready(function () {
+    $("#frmCadastro").submit(
+        function (e) {
+            e.preventDefault();
+            Cadastrar();
+    })
+})

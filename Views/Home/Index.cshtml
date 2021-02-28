@@ -19,32 +19,32 @@
 
 <div class="d-flex mt-3"> 
     <div class="col-md-5 border">
-        <h2>Entre em contato!</h2>
-        <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+        <h2 id="CabecalhoForm">Entre em contato!</h2>
+        <p id="TextoForm">Nos mande uma mensagem e fique por dentro de nossos eventos</p>
 
-        <form action="/Home/Cadastrar" method="POST">    
+        <form action="/Home/Cadastrar" method="POST" id="frmCadastro">    
             <div class="form-group row">
               <label asp-for="Nome" class="col-sm-2 col-form-label">Nome</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" asp-for="Nome">
+                <input type="text" class="form-control" id="nome" asp-for="Nome">
               </div>
             </div>
             <div class="form-group row">
               <label asp-for="Email" class="col-sm-2 col-form-label">E-mail</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" asp-for="Email">
+                <input type="email" class="form-control" id="email" asp-for="Email">
               </div>
             </div>                         
             <div class="form-group row">
               <label asp-for="Mensagem" class="col-sm-2 col-form-label">Mensagem (opcional):</label>
                   <div class="col-sm-10">
-                    <textarea asp-for="Mensagem" class="form-control" rows="10"></textarea>
+                    <textarea asp-for="Mensagem" class="form-control" id="mensagem" rows="10"></textarea>
                   </div>
             </div>
             <div class="mb- form-group row">
               <div class="col-10"> </div> 
               <div class="col-2"> 
-                <input type="submit" value="Enviar" class="btn btn-outline-dark "/>
+                <input type="submit" value="Enviar" class="btn btn-outline-dark " id="BtnSubmit"/>
               </div>
             </div>        
             
@@ -152,7 +152,5 @@
           </div>            
       </div>
     </div>
-    </div>
-
-</div>    
+       
 
